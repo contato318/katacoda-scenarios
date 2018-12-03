@@ -1,6 +1,8 @@
 {
   "title": "Workshop - Mundo dos containers",
   "description": "Práticas rápidas para apoiar o material do workshop - Mundo dos Containers",
+  "time": "15-30 minutos",
+  "difficulty": "iniciante",
   "details": {
     "steps": [
       {
@@ -23,8 +25,13 @@
       "text": "finish.md"
     }
   },
+  "files": [
+   "dockerfile"
+  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+     "uimessage1": "\u001b[32mEste é o seu terminal Bash.Um lugar seguro para você testar as suas lições e aprender :)\u001b[m\r\n"
+
   },
   "backend": {
     "imageid": "docker"
