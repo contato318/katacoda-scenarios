@@ -7,63 +7,7 @@
     "steps": [
       {
         "title": "Conheça o ambiente",
-        "text": "step1.md",
-        "verify": "step1-verify.sh"
-      },
-      {
-        "title": "Comandos básicos do docker",
-        "text": "step2.md",
-        "answer": "step2-answer.md",
-        "verify": "step2-verify.sh"
-      },
-      {
-        "title": "Criando a primeira image docker - sem user dockerfile",
-        "text": "step2.md",
-        "answer": "step2-answer.md",
-        "verify": "step2-verify.sh"
-      },
-      {
-        "title": "Criando a primeira image docker com dockerfile",
-        "text": "step3.md",
-        "answer": "step3-answer.md",
-        "verify": "step3-verify.sh"
-      },
-      {
-        "title": "Inciando o container",
-        "text": "step4.md",
-        "answer": "step4-answer.md",
-        "verify": "step4-verify.sh"
-      },
-      {
-        "title": "Inspecionando, vendo logs e status...",
-        "text": "step5.md",
-        "answer": "step5-answer.md",
-        "verify": "step5-verify.sh"
-      },
-      {
-        "title": "Persistência de volume",
-        "text": "step6.md",
-        "answer": "step6-answer.md",
-        "verify": "step6-verify.sh"
-      },
-      {
-        "title": "Trabalhando com rede",
-        "text": "step7.md",
-        "answer": "step7-answer.md",
-        "verify": "step7-verify.sh"
-      },
-      {
-        "title": "Criando uma pilha",
-        "text": "step8.md",
-        "answer": "step8-answer.md",
-        "verify": "step8-verify.sh"
-      },
-      {
-        "title": "Principais ações com o docker-compose",
-        "text": "step9.md",
-        "answer": "step9-answer.md",
-        "verify": "step9-verify.sh"
-      }
+        "text": "step1.md"      }
 
     ],
     "intro": {
