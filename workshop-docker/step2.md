@@ -10,7 +10,7 @@ O Docker permite criar e executar contêineres independentes usando alguns coman
 Você pode começar com a tradicional etapa Hello-World, você pode executar um contêiner baseado na imagem hello-world que já existe no Docker Hub.
 
 
-`docker run --name = hello hello-world`{{execute}}
+`docker run --name=hello hello-world`{{execute}}
 
 O que aconteceu??
 
@@ -38,7 +38,7 @@ Note que você NÃO verá nenhum contêiner porque seu contêiner executou e já
 
 ### Listando as imagens
 
-Você também pode verificar quais imagens estão presentes em seu sistema local executando:  `docker iamges`{{execute}}.
+Você também pode verificar quais imagens estão presentes em seu sistema local executando:  `docker images`{{execute}}.
 
 
 #### De onde é a imagem?
