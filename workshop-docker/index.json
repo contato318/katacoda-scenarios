@@ -7,7 +7,15 @@
     "steps": [
       {
         "title": "Conheça o ambiente",
-        "text": "step1.md"      }
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Iniciando do básico",
+        "text": "step2.md",
+        "answer": "step2-answer.md",
+        "verify": "step2-verify.sh"
+      }
 
     ],
     "intro": {
