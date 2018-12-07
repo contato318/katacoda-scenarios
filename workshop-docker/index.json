@@ -13,15 +13,30 @@
       {
         "title": "Iniciando do básico",
         "text": "step2.md",
-        "answer": "step2-answer.md",
         "verify": "step2-verify.sh"
       },
       {
         "title": "Criando uma primeira imagem",
         "text": "step3.md",
-        "answer": "step3-answer.md",
         "verify": "step3-verify.sh"
-      }
+      },
+      {
+        "title": "Praticando...",
+        "text": "step3.md"
+      },
+      {
+        "title": "Executando comandos nas imagens",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Ciclo de vida e portas",
+        "text": "step5.md",
+        "verify": "step5-verify.sh"
+      },
+      {
+        "title": "Criando uma pilha de aplicação",
+        "text": "step6.md"      }
 
     ],
     "intro": {
