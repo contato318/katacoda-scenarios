@@ -21,10 +21,6 @@
         "verify": "step3-verify.sh"
       },
       {
-        "title": "Praticando...",
-        "text": "step3.md"
-      },
-      {
         "title": "Executando comandos nas imagens",
         "text": "step4.md",
         "verify": "step4-verify.sh"
