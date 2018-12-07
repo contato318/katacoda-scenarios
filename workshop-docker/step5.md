@@ -33,7 +33,7 @@ Você poderá acessar a página pelo seu navegador (verá a tela default do ngin
 
 
 
-Para PARAR o container: Você pode parar esse contêiner usando o `docker docker stop meusite`{{execute}}. Você pode ver os contêineres parados executando o `docker ps -a`{{execute}}
+Para PARAR o container: Você pode parar esse contêiner usando o `docker stop meusite`{{execute}}. Você pode ver os contêineres parados executando o `docker ps -a`{{execute}}
 
 
 Depois de parar, você não conseguirá acessar novamente. Para iniciar ele novametne, inicie com: `docker start meusite`
