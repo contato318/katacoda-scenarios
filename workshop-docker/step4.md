@@ -19,7 +19,7 @@ Note também que, para cada comando, é criado e executado um container (e isso 
 
   * Vamos ver o conteúdo deste diretório de trabalho: `docker run busybox ls`{{execute}} . Você pode executar "ls" em outra pasta da imagem, por exemplo, `docker run busybox ls /bin`{{execute}}
 
-  *  Agora, tente isto: `docker run busybox whoami`{{execute}} . Sim, neste container especificamente, você é o root e todos os comandos  são executados como root por padrão. Isos merece um ponto de atenção, não é mesmo?
+  *  Agora, tente isto: `docker run busybox whoami`{{execute}} . Sim, neste container especificamente, você é o root e todos os comandos  são executados como root por padrão. Isto merece um ponto de atenção, não é mesmo?
 
 
 

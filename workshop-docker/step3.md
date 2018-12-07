@@ -76,7 +76,7 @@ Para SAIR do container, você tem que digitar o comando "exit"e prossionar enter
 
 
 Explicando o comando anterior:
-  * O "run" solitica ao serviço do docker a inicialização/execução de um container;
+  * O "run" solicita ao serviço do docker a inicialização/execução de um container;
   * O "--rm" indica que, ao sair do container (ao finalizá-lo), ele será automaticamente deletado;
   * A opção "-it" indica que iremos usar o container de forma interativa;
   * O "ubuntu:18.04" indica a imagem que queremos usar e a respectiva versão;

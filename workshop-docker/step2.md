@@ -56,7 +56,7 @@ Você pode encontrar a fonte real aqui: (https://github.com/docker-library/hello
 
 
 Vamos começar nosso entendimento partindo da última linha do Dockerfile:
-  * O CMD está especificando que quando esse contêiner é executado, sem um comando especificado, ele executa o comando / hello.
+  * O CMD está especificando que quando esse contêiner é executado.
   * Como o / "hello" chegou lá? Foi copiado usando o comando COPY.
   * O comando FROM especifica que esse contêiner foi construído usando a imagem base "scratch", que é uma imagem especial para construir novas imagens.
   * Nota: A maioria das imagens com as quais você trabalhará NÃO serão construídas a partir do zero, mas criadas a partir de uma camada, como o Ubuntu ou o Coreos.
