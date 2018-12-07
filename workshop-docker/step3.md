@@ -20,10 +20,11 @@ Então vamos nessa!
 
 
 
-  1. Primeiro escreva o Dockerfile
-  Para isso primeiro crie um arquivo vazio com o nome de Dockerfile: `touch Dockerfile`{{execute}}.
+### Primeiro escreva o Dockerfile
+Para isso primeiro crie um arquivo vazio com o nome de Dockerfile: `touch Dockerfile`{{execute}}.
 
-  Com o o arquivo criado, vá na IDE, abra o arquivo, e escreva o seguinte nele:
+
+Com o o arquivo criado, vá na IDE, abra o arquivo, e escreva o seguinte nele:
   ```shell
       FROM ubuntu:18.04
       RUN apt-get update \
@@ -32,24 +33,36 @@ Então vamos nessa!
       ENTRYPOINT ["/usr/bin/figlet"]
   ```
 
-    Para entender melhor sobre CMD e ENTRYPOINT, recomendamos que você leia https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint
+Para entender melhor sobre CMD e ENTRYPOINT, recomendamos que você leia https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint
+
 
     Um outro link interessante e muito útil é o https://www.fromlatest.io/#/ - Que nos ajuda a conferir algumas melhores práticas para a criação de imagens.
 
 
-
-    2. Agora que você inseriu as informações no Dockerfile, chegou a hora de "fazer o build" (a construção) da imagem. Para isso execute: `docker build -t figlet:latest .`{{execute}} - Aguarde a construção do container....
-    O que isto está acontecendo? Foi enviado o Dockerfile ao docker daemon (serviço local do docker); este, por sua vez, irá fazer a contrução da imagem e, se tudo ocorrer bem, salvar a imagem localmente. A opção "-t figlet:latest" indica o NOME:Versão que você quer dar para a sua imagem. O "." ao final do comando é importante, pois ele indica que o Dockerfile está no diretório local.
-
-    Lembre-se que você poderá ver as imagens locais com o comando `docker images`{{execute}}
+### Construa a imagem
+Agora que você inseriu as informações no Dockerfile, chegou a hora de "fazer o build" (a construção) da imagem. Para isso execute: `docker build -t figlet:latest .`{{execute}} - Aguarde a construção do container....
 
 
-  3. Testando! Agora que já temos a imagem local, vamos testar ela. Vamos chamar o figlet!, para isso, execute o container: `docker run  figlet:latest  Mensagem para o mundo...`{{execute}}
+O que isto está acontecendo? Foi enviado o Dockerfile ao docker daemon (serviço local do docker); este, por sua vez, irá fazer a contrução da imagem e, se tudo ocorrer bem, salvar a imagem localmente. A opção "-t figlet:latest" indica o NOME:Versão que você quer dar para a sua imagem. O "." ao final do comando é importante, pois ele indica que o Dockerfile está no diretório local.
+
+
+
+Lembre-se que você poderá ver as imagens locais com o comando `docker images`{{execute}}
+
+
+
+### Iniciando o container
+Agora que já temos a imagem local, vamos testar ela. Vamos chamar o figlet!, para isso, execute o container: `docker run  figlet:latest  Mensagem para o mundo...`{{execute}}
+
+
+
 
 
 
 Gostou? Você criou  um container. Novinho em folha. Foi um container simples, mas é seu! :)
 
+
+### Iniciando um container para usar de forma interativa
 
 Você também pode usar um container de forma interativa. Isto é, iniciar um container e acessar ele para usar, por exemplo, o Bash.
 
