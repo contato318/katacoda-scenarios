@@ -1,1 +1,1 @@
-O cenário está em atualização. Retorne mais tarde.
+Este cenário está em constante evolução. Aproveite :)

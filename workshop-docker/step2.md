@@ -75,3 +75,6 @@ Este comando falha porque "ls" não é um comando conhecido dentro deste contêi
 A imagem hello-world tem um e apenas um arquivo, "hello" e, portanto, não suporta a execução de outros comandos.
 
 Isso é uma EXCELENTE prática, isto é, cada container executar uma, e apenas uma coisa.
+
+
+Obs.: Para continuar, as atividades acima deverão ter sido executadas.
